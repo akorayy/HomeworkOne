@@ -1,0 +1,64 @@
+---
+title: "Homework 1"
+author: "Alper Koray YILDIZ, 20080508"
+---
+
+```{r global_options, include=FALSE}
+# Do not delete or modify this chunk.
+# We will cover chunk options later.
+# This is required for Question 7
+library(knitr)
+opts_chunk$set(fig.align="center", fig.height=4, fig.width=5.5)
+```
+
+**Question 1** With Markdown write a sentence that has one word in bold.
+
+**Valorant** is my favourite pc game.
+
+**Question 2** With Markdown write a sentence that has one word in italic.
+
+I like coding *R*.
+
+**Question 3** With Markdown write a sentence that has one word in italic bold.
+
+I am from ***Ankara***.
+
+**Question 4** With Markdown write an unordered list with three items.
+
+My shopping list
+
+-   Egg
+-   Bread
+-   Milk
+
+**Question 5** With Markdown write an ordered list with three items.
+
+Our lessons in today
+
+1.  Contemporary Global Issues
+2.  Macroeconomics
+3.  Introduction to Data Science
+
+**Question 6** With Markdown give a link to your favorite webpage.
+
+My best webpage in my university career is [here!](https://ekampus.ankara.edu.tr/)
+
+**Question 7** With Markdown add a cat picture.
+
+![Haydar](https://img-s1.onedio.com/id-52f29f88c9d46afe170000fd/rev-0/w-635/f-jpg/s-09da3d5cda6a986be80f331c15a48f7ee0e4f42e.jpg)
+
+**Question 8** With Rmarkdown insert a code chunk and give an example of a simple mathematical calculation in it.
+
+```{r}
+5*2
+```
+
+**Question 9** With $LaTeX$ write your favorite equation in block form.
+
+$E=m*c^{2}$
+
+**Question 10** In a code chunk calculate 3 + 4.
+
+```{r}
+3+4
+```
